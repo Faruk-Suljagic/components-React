@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+html,
+body {
+	margin: 0;
+	padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: center;
+	background-image: radial-gradient(#c6b3ba, #846187);
+	height: 250rem;
+	padding: 5rem;
+}
+.statistics {
+	height: 162px;
+	width: 332px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.statistics p {
+	text-transform: uppercase;
+	padding: 20px 20px 15px 20px;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #687c8c;
+}
+.stats ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0px 22px 20px 22px;
+}
+.stats ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 90px;
+	width: 20px;
+	border-radius: 4px;
+	background-color: #f0efef;
+	margin: auto 0;
+	padding: 0;
+	list-style: none;
+}
+/* .stats ul li div {
+	height: 80%;
+	width: 20px;
+	background-color: #e8566d;
+	margin-bottom: auto;
+	border-radius: 4px;
+	margin: 0 auto;
+} */
+.stats ul li div {
+	height: 55%;
+	width: 20px;
+	background-color: #e8566d;
+	margin-bottom: auto;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+.stats ul li:nth-child(2) div {
+	height: 35%;
+	width: 20px;
+	background-color: #e8566d;
+	margin-bottom: auto;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+.stats ul li:nth-child(odd) div {
+	height: 90%;
+	width: 20px;
+	background-color: #e8566d;
+	margin-bottom: auto;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+/* .App-logo {
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} */

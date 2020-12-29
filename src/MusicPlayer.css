@@ -1,0 +1,87 @@
+.hehe {
+	height: 90px;
+	width: 460px;
+	background-color: #fff;
+	margin: 2rem;
+	border-radius: 6px;
+}
+.firstLayer {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	padding: 0px 25px;
+	color: #4a5e6e;
+}
+.firstLayer span {
+	font-size: 12px;
+	color: #4a5e6e;
+	font-weight: 400;
+}
+#makeItRed {
+	color: #e8566d;
+}
+.secondLayer {
+	height: 1.5px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #e2e2e2;
+}
+.secondLayerTwo {
+	height: 100%;
+	width: 60%;
+	background-color: #e8566d;
+}
+.pressPlay {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	max-width: 50%;
+	margin: 0;
+}
+.thirdLayer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.pressPlay i {
+	font-size: 22px;
+	color: #4a5e6e;
+	padding: 0px 2px;
+	margin: 0;
+}
+.pressPlay:hover {
+	pointer-events: all;
+	cursor: pointer;
+}
+.volume {
+	display: flex;
+	max-width: 50%;
+	padding: 0px 25px 0px;
+	align-items: center;
+}
+.volume i {
+	color: #4a5e6e;
+	padding: 0px 10px;
+}
+.volume i:hover {
+	pointer-events: all;
+	cursor: pointer;
+}
+.loading {
+	height: 11px;
+	width: 112px;
+	border: 1px solid #e2e2e2;
+	border-radius: 20px;
+}
+.loading div {
+	height: 100%;
+	width: 70%;
+	background-color: #4a5e6e;
+	border-radius: 20px;
+}
